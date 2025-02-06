@@ -9,12 +9,9 @@ body {
 
 @media screen and (min-width:600px) and (max-width:768px) {
   body {
-
     overflow-x: hidden;
   }
-
 }
-
 .video {
   width: 1440px;
   height: 700px;
@@ -22,7 +19,13 @@ body {
   background-color: black;
   width: 1500px;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:350px) and (max-width:600px) {
+  .video {
+    width: 1425px;
+    height: 700px;
+  }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
   .video {
     width: 1425px;
     height: 700px;
@@ -41,7 +44,6 @@ body {
     height: 700px;
   }
 }
-
 .gym-text {
   font-size: 50px;
   font-weight: 600px;
@@ -53,16 +55,20 @@ body {
   cursor: pointer;
   transition: 2s;
   width: 600px;
-
+}
+@media screen and (min-width:350px) and (max-width:600px) {
+  .gym-text{
+    font-size: 100px;
+    margin-left: 250px;
+  width: 1000px;
+  }
 }
 @media screen and (min-width:600px) and (max-width:768px) {
   .gym-text{
     font-size: 100px;
     margin-left: 250px;
   width: 1000px;
-
   }
-
 }
 @media screen and (min-width:769px) and (max-width:992px) {
   .gym-text{
@@ -71,7 +77,6 @@ body {
   width: 800px;
   /* border: 5px solid white; */
   }
-
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
   .gym-text{
@@ -80,10 +85,7 @@ body {
   width: 800px;
   /* border: 5px solid white; */
   }
-
 }
-
-
 .text {
   font-size: 80px;
   font-style: oblique;
@@ -100,15 +102,21 @@ body {
   color: white;
   margin-top: -43px;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:600px) {
   .service{
     font-size: 100px;
     margin-left: 250px;
   width: 1000px;
   margin-top: -180px;
-
   }
-
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+  .service{
+    font-size: 100px;
+    margin-left: 250px;
+  width: 1000px;
+  margin-top: -180px;
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
   .service{
@@ -117,7 +125,6 @@ body {
   /* width: 1000px; */
   margin-top: -160px;
   }
-
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
   .service{
@@ -126,9 +133,7 @@ body {
   width: 1000px;
   margin-top: -160px;
   }
-
 }
-
 .cardio-img {
   margin-left: 120px;
   border-radius: 20px;
@@ -138,19 +143,24 @@ body {
   transition: 2s;
   margin-top: 20px;
 }
-
 .cardio-img:hover {
   transform: scale(1.1);
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:350px) and (max-width:600px) {
   .cardio-img{
     font-size: 100px;
     margin-left: 80px;
   width: 600px;
   margin-top: 40px;
-
   }
-
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+  .cardio-img{
+    font-size: 100px;
+    margin-left: 80px;
+  width: 600px;
+  margin-top: 40px;
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-img {
@@ -162,8 +172,6 @@ body {
     transition: 2s;
     margin-top: 20px;
   }
-
-
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
   .cardio-img {
@@ -176,14 +184,22 @@ body {
     margin-top: 20px;
   }
 }
-
 .cardio-text {
   font-size: 40px;
   margin-left: 810px;
   color: white;
   margin-top: -350px;
+  /* border: 2px solid white; */
+ width: 500px;
 }
-
+@media screen and (min-width:350px) and (max-width:600px) {
+  .cardio-text {
+    font-size: 50px;
+    margin-left: 770px;
+    color: white;
+    margin-top: -350px;
+  }
+}
 @media screen and (min-width:600px) and (max-width:768px) {
   .cardio-text{
     font-size: 50px;
@@ -192,7 +208,6 @@ body {
   margin-top: -340px;
   }
 }
-
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-text{
     font-size: 50px;
@@ -201,7 +216,6 @@ body {
   margin-top: -340px;
   }
 }
-
 @media screen and (min-width:993px) and (max-width:1200px) {
   .cardio-text{
     font-size: 50px;
@@ -210,7 +224,6 @@ body {
   margin-top: -340px;
   }
 }
-
 .cardio-para {
   margin-left: 770px;
   color: white;
@@ -220,7 +233,17 @@ body {
   width: 530px;
   height: 200px;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:600px) {
+  .cardio-para {
+    margin-left: 770px;
+    color: white;
+    font-size: 22px;
+    margin-right: 120px;
+   /* border: 2px solid white; */
+   width: 530px;
+  }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
   .cardio-para {
     margin-left: 770px;
     color: white;
@@ -250,7 +273,6 @@ body {
    width: 520px;
   }
 }
-
 .cardio-img1 {
   margin-left: 800px;
   border-radius: 20px;
@@ -260,15 +282,21 @@ body {
   cursor: pointer;
   transition: 2s;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:7600px) {
+  .cardio-img1{
+    font-size: 100px;
+    margin-left: 750px;
+  width: 600px;
+  margin-top: 40px;
+  }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
   .cardio-img1{
     font-size: 100px;
     margin-left: 760px;
   width: 600px;
   margin-top: 40px;
-
   }
-
 }
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-img1 {
@@ -278,7 +306,6 @@ body {
     width: 630px;
     cursor: pointer;
     transition: 2s; 
-
   }
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
@@ -292,16 +319,22 @@ body {
     margin-top: 20px;
   }
 }
-
 .cardio-img1:hover {
   transform: scale(1.1);
 }
-
 .cardio-text1 {
   font-size: 40px;
   margin-left: 140px;
   color: white;
   margin-top: -250px;
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+  .cardio-text1{
+    font-size: 50px;
+    margin-left: 90px;
+  width: 600px;
+  margin-top: -340px;
+  }
 }
 @media screen and (min-width:600px) and (max-width:768px) {
   .cardio-text1{
@@ -311,7 +344,6 @@ body {
   margin-top: -340px;
   }
 }
-
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-text1{
     font-size: 50px;
@@ -320,7 +352,6 @@ body {
   margin-top: -390px;
   }
 }
-
 @media screen and (min-width:993px) and (max-width:1200px) {
   .cardio-text1{
     font-size: 50px;
@@ -329,7 +360,6 @@ body {
   margin-top: -340px;
   }
 }
-
 .cardio-para1 {
   margin-left: 140px;
   color: white;
@@ -337,7 +367,17 @@ body {
   margin-right: 780px;
   margin-top: 20PX;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:600px) {
+  .cardio-para1 {
+    margin-left: 90px;
+    color: white;
+    font-size: 22px;
+    margin-right: 120px;
+   /* border: 2px solid white; */
+   width: 530px;
+  }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
   .cardio-para1 {
     margin-left: 90px;
     color: white;
@@ -374,6 +414,14 @@ body {
   height: 390px;
   width: 630px;
 }
+@media screen and (min-width:300px) and (max-width:600px) {
+  .cardio-img2{
+    font-size: 100px;
+    margin-left: 80px;
+  width: 600px;
+  margin-top: 40px;
+  }
+}
 @media screen and (min-width:600px) and (max-width:768px) {
   .cardio-img2{
     font-size: 100px;
@@ -382,7 +430,6 @@ body {
   margin-top: 40px;
   }
 }
-
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-img2 {
     margin-left: 120px;
@@ -394,7 +441,6 @@ body {
     margin-top: 20px;
   }
 }
-
 @media screen and (min-width:993px) and (max-width:1200px) {
   .cardio-img2 {
     margin-left: 120px;
@@ -412,6 +458,14 @@ body {
   color: white;
   margin-top: -260px;
 }
+@media screen and (min-width:350px) and (max-width:600px) {
+  .cardio-text2{
+    font-size: 50px;
+    margin-left: 760px;
+  width: 600px;
+  margin-top: -340px;
+  }
+}
 @media screen and (min-width:600px) and (max-width:768px) {
   .cardio-text2{
     font-size: 50px;
@@ -420,7 +474,6 @@ body {
   margin-top: -340px;
   }
 }
-
 @media screen and (min-width:769px) and (max-width:992px) {
   .cardio-text2{
     font-size: 50px;
@@ -429,7 +482,6 @@ body {
   margin-top: -320px;
   }
 }
-
 @media screen and (min-width:993px) and (max-width:1200px) {
   .cardio-text2{
     font-size: 50px;
@@ -444,11 +496,21 @@ body {
   font-size: 18px;
   margin-right: 120px;
 }
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:600px) {
   .cardio-para2 {
     margin-left: 770px;
     color: white;
     font-size: 20px;
+    margin-right: 120px;
+   /* border: 2px solid white; */
+   width: 530px;
+  }
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+  .cardio-para2 {
+    margin-left: 770px;
+    color: white;
+    font-size: 22px;
     margin-right: 120px;
    /* border: 2px solid white; */
    width: 530px;
@@ -474,18 +536,15 @@ body {
    width: 520px;
   }
 }
-
 .flex {
   display: flex;
   white-space: 20px;
 }
-
 .flex-logo {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
-
 .main {
   font-size: 50px;
   font-weight: 600px;
@@ -498,6 +557,14 @@ body {
   /* border: 2px solid white; */
   width: 1200px;
 }
+@media screen and (min-width:300px) and (max-width:600px) {
+  .main{
+    font-size: 80px;
+    margin-left: 250px;
+  width: 1000px;
+  margin-top: 190px;
+  }
+}
 @media screen and (min-width:600px) and (max-width:768px) {
   .main{
     font-size: 80px;
@@ -506,7 +573,6 @@ body {
   margin-top: 190px;
   }
 }
-
 @media screen and (min-width:769px) and (max-width:992px) {
   .main{
      font-size: 90px;
@@ -517,7 +583,6 @@ body {
   width: 1700px;
   }
 }
-
 @media screen and (min-width:993px) and (max-width:1200px) {
   .main{
     font-size: 70px;
@@ -525,7 +590,6 @@ body {
   width: 1000px;
   margin-top: 150px;
   }
-
 }
 .galary {
   display: flex;
@@ -549,6 +613,14 @@ body {
   cursor: pointer;
   transition: 0.3s;
   border: 2px solid transparent;
+}
+@media screen and (min-width:350px) and (max-width:600px) {
+  .gal-img {
+    height: 260px;
+    width: 410px;
+    margin-top: -110px;
+   margin-left: 40px;
+  }
 }
 @media screen and (min-width:600px) and (max-width:768px) {
   .gal-img {
@@ -574,14 +646,11 @@ body {
    margin-left: 30px;
   }
 }
-
 .gal-img:hover {
   transform: scale(0.9);
   background-color: #35373b;
   border-color: #d74747;
-  ;
 }
-
 .galary1 {
   display: flex;
   justify-content: space-evenly;
